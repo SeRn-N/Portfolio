@@ -44,9 +44,7 @@ public class TaskProgressBar {
         toppn.add(pur);toppn.add(phi);toppn.add(pmid);toppn.add(plo);
         fr.add(toppn);
         
-        fr.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        fr.pack();
-        fr.setVisible(true);
+        
     }
     private JProgressBar createBar(int value, Color color) {
         JProgressBar bar = new JProgressBar(0, 100);
